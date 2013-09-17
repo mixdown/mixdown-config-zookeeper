@@ -1,0 +1,8 @@
+{
+  "zookeeper": {
+    "hosts": ["localhost:2181"],
+    "root": "/test/mixdown/zookeeper",
+    "timeout": 1000,
+    "requestTimeout": 1000
+  }
+}

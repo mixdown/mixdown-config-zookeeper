@@ -1,0 +1,21 @@
+{
+  "name": "mixdown-config-zookeeper",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec -u tdd tests/mocha/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mixdown/mixdown-config-zookeeper.git"
+  },
+  "dependencies": {
+    "zkjs": "~3.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "tape": "~1.1.0",
+    "tap": "~0.4.4",
+    "broadway": "~0.2.7"
+  }
+}
